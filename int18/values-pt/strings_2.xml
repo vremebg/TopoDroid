@@ -20,20 +20,20 @@
     <string name="paste">COLAR</string>
     <string name="copied">Copiado %1$s na prancheta</string>
 
-    <string name="memoryA3">DistoX A3 memory</string>
-    <string name="memoryX310">DistoX X310 memory</string>
+    <string name="memoryA3">Memória DistoX A3</string>
+    <string name="memoryX310">Memória DistoX X310</string>
     <!-- UNUSED string name="memory_data">DistoX data</string -->
 
-    <string name="thp_user">user</string>
-    <string name="thp_label">label</string>
+    <string name="thp_user">usuário</string>
+    <string name="thp_label">etiqueta</string>
     <!-- string name="thp_danger">danger</string -->
-    <string name="thl_user">user</string>
-    <string name="thl_wall">wall</string>
-    <string name="tha_user">user</string>
-    <string name="tha_water">water</string>
+    <string name="thl_user">usuário</string>
+    <string name="thl_wall">parede</string>
+    <string name="tha_user">usuário</string>
+    <string name="tha_water">águar</string>
 
-    <string name="make_walls">Walls</string>
-    <string name="missing_station">Missing station</string>
+    <string name="make_walls">Paredes</string>
+    <string name="missing_station">Base ausente</string>
     <!-- UNUSED string name="missing_area">AREA</string -->
     <!-- UNUSED string name="missing_hint">Please, enable the missing tools or install them</string -->
     <!-- UNUSED string name="missing_line">LINE</string -->
