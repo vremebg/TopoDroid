@@ -203,20 +203,20 @@
     <string name="fixed">fixo</string>
     <string name="painted">pintado</string>
 
-    <string name="bad_cwd">Project name cannot be path</string>
-    <string name="bad_line">Bad line type</string>
-    <string name="bad_point">Bad point type</string>
+    <string name="bad_cwd">O nome do projeto não pode ser encaminhado</string>
+    <string name="bad_line">Linea digitada errada</string>
+    <string name="bad_point">Ponto digitado errado</string>
 
-    <string name="no_bt">No Bluetooth</string>
-    <string name="no_calib">No calibration</string>
-    <string name="no_calibration">No calibration selected</string>
-    <string name="no_capture_app">No image capture app</string>
-    <string name="no_cave3d">Cave3D not installed</string>
-    <string name="no_db">No database</string>
-    <string name="no_device_address">Device not selected</string>
-    <string name="no_device_found">Found no device</string>
-    <string name="no_gms">Calibration has no data.\nUse Download button</string>
-    <string name="no_geo_station">Failed: no geolocalized station</string>
+    <string name="no_bt">Nenhum Bluetooth</string>
+    <string name="no_calib">Nenhuma calibração</string>
+    <string name="no_calibration">Nenhuma calibração selecionada</string>
+    <string name="no_capture_app">Nenhum aplicativo de catura de imagem</string>
+    <string name="no_cave3d">Cave3D não instalado</string>
+    <string name="no_db">Nenhum banco de dados</string>
+    <string name="no_device_address">Dispositivo não selecionado</string>
+    <string name="no_device_found">Nenhum dispositivo encontrado</string>
+    <string name="no_gms">Não há dados para calibração.\nUse Download button</string>
+    <string name="no_geo_station">Falha: nenhuma base geolocalizada</string>
     <string name="no_leg_intersection">Section line crosses no leg</string>
     <string name="no_location_data">No location data</string>
     <string name="no_paired_device">No paired device.\nScan and pair a DistoX</string>
