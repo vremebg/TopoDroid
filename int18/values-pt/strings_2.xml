@@ -494,7 +494,7 @@
     <!-- string name="title_sketch_section_type">Sections type</string -->
     <!-- string name="title_sketch_select">Select item</string -->
 
-    <string name="sketch_mode_single">Tiro únicp</string>
+    <string name="sketch_mode_single">Tiro único</string>
     <string name="sketch_mode_ngbh">Tiros nas proximidades</string>
     <string name="sketch_mode_all">Todos os tiros</string>
     <string name="sketch_delete">Apagar modelo 3D?</string>
