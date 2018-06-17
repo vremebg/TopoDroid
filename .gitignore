@@ -1,0 +1,4 @@
+#hide symlink
+/res/drawable
+#hide android studio project
+/studio/app
