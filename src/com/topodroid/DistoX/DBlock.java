@@ -165,7 +165,13 @@ class DBlock
   //   - its id comes after the given id
   //   - its time is no more than 10 seconds before the given time
   boolean isRecent( ) { return mId >= TopoDroidApp.mSecondLastShotId; }
-  boolean isRecent( long time ) { return mId >= TopoDroidApp.mSecondLastShotId && (time-mTime)<10L; }
+  boolean isRecent( long time )
+  {
+    if (TDSetting.mConnectionMode == TDSetting.CONN_MODE_BATCH)
+      return mId >= TopoDroidApp.mSecondLastShotId;
+
+    return mId >= TopoDroidApp.mSecondLastShotId && (time-mTime)<10L;
+  }
 
   boolean isMultiBad() { return mMultiBad; }
 
