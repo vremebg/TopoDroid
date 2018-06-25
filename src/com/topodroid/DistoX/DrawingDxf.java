@@ -478,7 +478,7 @@ class DrawingDxf
 
     try {
       // header
-      writeComment( out, "DXF created by TopoDroid v. " + TopoDroidApp.VERSION );
+      writeComment( out, "DXF created (via DrawingDxf) by TopoDroid v. " + TopoDroidApp.VERSION );
       writeSection( out, "HEADER" );
 
       xmin -= 2;  xmax += 2;

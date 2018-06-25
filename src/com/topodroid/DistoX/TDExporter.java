@@ -3306,7 +3306,7 @@ class TDExporter
       FileWriter fw = new FileWriter( filename );
       PrintWriter out = new PrintWriter( fw );
       // TODO
-      out.printf(Locale.US, "999\nDXF created by TopoDroid v %s - %s (declination %.4f)\n",
+      out.printf(Locale.US, "999\nDXF created (via TDExporter) by TopoDroid v %s - %s (declination %.4f)\n",
         TopoDroidApp.VERSION, TopoDroidUtil.getDateString("yyyy.MM.dd"), info.declination );
       out.printf("0\nSECTION\n2\nHEADER\n");
       out.printf("9\n$ACADVER\n1\nAC1006\n");

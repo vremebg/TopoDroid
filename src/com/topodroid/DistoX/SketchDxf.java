@@ -30,7 +30,7 @@ class SketchDxf
   {
     DistoXNum num = model.mNum;
     // header
-    out.printf("999\nDXF created from TopoDroid\n");
+    out.printf("999\nDXF created  (via SketchDxf) from TopoDroid\n");
     out.printf("0\nSECTION\n2\nHEADER\n");
       out.printf("9\n$ACADVER\n1\nAC1012\n"); // was AC1006
       out.printf("9\n$INSBASE\n");
