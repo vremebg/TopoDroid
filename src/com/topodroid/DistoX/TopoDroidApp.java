@@ -73,6 +73,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 
 // import android.view.WindowManager;
 // import android.view.Display;
+import android.util.Log;
 import android.view.ViewGroup.LayoutParams;
 
 import android.widget.Button;
@@ -102,6 +103,7 @@ public class TopoDroidApp extends Application
   static final String SYMBOL_VERSION = "35";
   static String VERSION = "0.0.0"; 
   static int VERSION_CODE = 0;
+  static int MINIMUM_VERSION = 303066;//required for exports to work properly.
   static int MAJOR = 0;
   static int MINOR = 0;
   static int SUB   = 0;
@@ -560,7 +562,12 @@ public class TopoDroidApp extends Application
       // FIXME
       e.printStackTrace();
     }
+    if (VERSION_CODE < MINIMUM_VERSION) {
+      Log.v("DistoX", "Please set your app version code to be above " + MINIMUM_VERSION);
+      Log.v("DistoX", "Do not ignore or remove this check.");
 
+      System.exit(1);
+    }
     mPrefs = PreferenceManager.getDefaultSharedPreferences( this );
     mWelcomeScreen = mPrefs.getBoolean( "DISTOX_WELCOME_SCREEN", true ); // default: WelcomeScreen = true
     if ( mWelcomeScreen ) {
